@@ -1,0 +1,90 @@
+Banco Azteca 1
+
+Beneficiario.  Jose Manuel Santos Francisco. 
+
+número de cuenta CLABE para transferencias interbancarias es: 
+          1274 4401 3802 7503 30
+
+Mi número de cuenta para transferencias en banco azteca es: 
+          6325 1380 2750 33
+
+Mi número de tarjeta para envios desde otros bancos es: 
+          4027 6657 4616 5035
+
+Concepto: Comisiones, Pago o abono.
+--------------------------------------------
+Banco Azteca  2
+
+Beneficiario.  Anastasia Bautista Sánchez. 
+
+Mi número de cuenta CLABE para transferencias interbancarias es: 
+          1274 4401 3012 4349 41
+
+Mi número de cuenta para transferencias en banco azteca es: 
+          6325 1301 2434 94
+
+Mi número de tarjeta para envios desde otros bancos es: 
+          5263 5401 2954 0395
+
+Concepto. Comisiones, Pago o abono.
+--------------------------------------------
+Banco Azteca 3
+
+Beneficiario.  Marisol Bautista Sánchez. 
+
+Número de cuenta. 4027 6658 1430 5174
+
+Concepto. Pago, Abono, comisiones.
+------------------------------------------
+Banco BBVA  4
+
+Beneficiario.  Anita Francisco Sánchez. 
+
+Número de cuenta 154 725 4347
+
+Cuenta clabe. 012 180 01547254347 0
+ 
+Tarjeta de débito. 4152 3140 4122 3432
+
+Concepto.  Pago, abono, comisiones.
+----------------------------------------
+Banco Azteca 5
+
+Beneficiario. Rogelio Santos Bautista. 
+
+Mi número de cuenta CLABE para transferencias interbancarias es: 
+          1274 4401 3999 8134 78
+
+Mi número de cuenta para transferencias en banco azteca es: 
+          6325 1399 9813 47
+
+Mi número de tarjeta para envios desde otros bancos es: 
+          5263 5401 2881 0252
+
+Concepto.  Pago, abono, comisiones.
+--------------------------------------
+Bancomer, BBVA 6
+
+Beneficiario.  José Manuel Samtos Francisco. 
+
+Número de cuenta. 150 325 9096
+
+Cuenta clave. 012 444 01503259096 5
+
+Número de tarjeta. 4152 3137 8362 2678
+
+Concepto. Comisiones, Pago, abono
+----------------------------------
+Cuenta. Azteca  7
+Beneficiario. José Manuel Santos
+
+Mi número de cuenta CLABE para enviarme dinero desde otro banco (SPEI) es: 
+          1274 4401 3054 6360 11
+
+Mi número de cuenta para enviarme dinero dentro de Banco Azteca es: 
+          6325 1305 4636 01
+
+Mi número de tarjeta para enviarme dinero desde otro banco (SPEI) es: 
+          5263 5401 3584 6224
+
+Concepto: Pago, abono, publicidad, comisiones.

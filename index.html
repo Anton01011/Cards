@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjetas</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .click-to-copy {
+            cursor: pointer;
+            position: relative;
+        }
+
+        /* Estilos para la notificación */
+        .notification {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: none;
+        }
+        
+        /* Estilos para el logo en el encabezado */
+        .card .card-header {
+            text-align: right;
+        }
+
+        .card .card-header img {
+            width: 120px;
+            height: 40px;
+            object-fit: contain;
+            margin-left: 10px; /* Ajusta este valor según lo que necesites */
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <div class="title"></div>
+        <h6 class="m-0 text-center">Realiza tu depósito en las siguientes cuentas:</h6>
+        <br>
+        <div class="row">
+            <!-- Tarjeta 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        Número de tarjeta: <span class="badge badge-primary">1</span>
+                        <img src="/img/banco_azteca.png" alt="Logo Banco Azteca">
+                    </div>
+                    <div class="beneficiary-name p-3">
+                        <h6 class="m-0 text-center">Jose Manuel Santos Francisco</h6>
+                    </div>
+<!--                     <img src="/img/banco_azteca.png" class="card-img-top" alt="Imagen Tarjeta 1">
+ -->                    <div class="card-body">
+                        <h5 class="card-title">Banco Azteca</h5>
+                        <p class="card-text click-to-copy" data-clipboard-text="1274 4401 3802 7503 30">
+                            Número de cuenta CLABE para transferencias interbancarias: <strong>1274 4401 3802 7503 30</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text click-to-copy" data-clipboard-text="6325 1380 2750 33">
+                            Número de cuenta para transferencias: <strong>6325 1380 2750 33</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text click-to-copy" data-clipboard-text="4027 6657 4616 5035">
+                            Número de tarjeta para envios desde otros bancos: <strong>4027 6657 4616 5035</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text">Concepto: Comisiones, Pago o abono.</p>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        Número de tarjeta: <span class="badge badge-primary">2</span>
+                        <img src="/img/banco_azteca.png" alt="Logo Banco Azteca">
+                    </div>
+                    <div class="beneficiary-name p-3">
+                        <h6 class="m-0 text-center">Anastasia Bautista Sánchez</h6>
+                    </div>
+<!--                     <img src="/img/banco_azteca.png" class="card-img-top" alt="Imagen Tarjeta 2">
+ -->                    <div class="card-body">
+                        <h5 class="card-title">Banco Azteca</h5>
+                        <p class="card-text  click-to-copy" data-clipboard-text="1274 4401 3012 4349 41">
+                            Número de cuenta CLABE para transferencias interbancarias: <strong>1274 4401 3012 4349 41</strong> <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text  click-to-copy" data-clipboard-text="6325 1301 2434 94">
+                            Número de cuenta para transferencias: <strong>6325 1301 2434 94</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text  click-to-copy" data-clipboard-text="5263 5401 2954 0395">
+                            Número de tarjeta para envios desde otros bancos: <strong>5263 5401 2954 0395</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text">Concepto: Comisiones, Pago o abono.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        Número de tarjeta: <span class="badge badge-primary">3</span>
+                        <img src="/img/banco_azteca.png" alt="Logo Banco Azteca">
+                    </div>
+                    <div class="beneficiary-name p-3">
+                        <h6 class="m-0 text-center"> Marisol Bautista Sánchez</h6>
+                    </div>
+<!--                     <img src="/img/banco_azteca.png" class="card-img-top" alt="Imagen Tarjeta 2">
+ -->                    <div class="card-body">
+                        <h5 class="card-title">Banco Azteca</h5>
+                        <p class="card-text click-to-copy" data-clipboard-text="4027 6658 1430 5174">
+                            Número de cuenta: <strong>4027 6658 1430 5174</strong>   <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text"></p>
+                        <p class="card-text">Concepto: Pago, Abono, comisiones.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        Número de tarjeta: <span class="badge badge-primary">4</span>
+                        <img src="/img/banco_azteca.png" alt="Logo Banco Azteca">
+                    </div>
+                    <div class="beneficiary-name p-3">
+                        <h6 class="m-0 text-center"> Rogelio Santos Bautista</h6>
+                    </div>
+<!--                     <img src="/img/banco_azteca.png" class="card-img-top" alt="Imagen Tarjeta 2">
+ -->                    <div class="card-body">
+                        <h5 class="card-title">Banco Azteca</h5>
+                        <p class="card-text click-to-copy" data-clipboard-text="1274 4401 3999 8134 78">
+                            Número de cuenta CLABE para transferencias interbancarias: <strong>1274 4401 3999 8134 78</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text click-to-copy" data-clipboard-text="6325 1399 9813 47">
+                            Número de cuenta para transferencias: <strong>6325 1399 9813 47</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text click-to-copy" data-clipboard-text="5263 5401 2881 0252">
+                            Número de tarjeta  para envios desde otros bancos: <strong>5263 5401 2881 0252</strong>   <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text">Concepto: Pago, abono, comisiones</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        Número de tarjeta: <span class="badge badge-primary">5</span>
+                        <img src="/img/banco_azteca.png" alt="Logo Banco Azteca">
+                    </div>
+                    <div class="beneficiary-name p-3">
+                        <h6 class="m-0 text-center">José Manuel Santos</h6>
+                    </div>
+<!--                     <img src="/img/banco_azteca.png" class="card-img-top" alt="Imagen Tarjeta 2">
+ -->                    <div class="card-body">
+                        <h5 class="card-title">Banco Azteca</h5>
+                        <p class="card-text click-to-copy" data-clipboard-text="6325 1305 4636 01">
+                            Número de cuenta: <strong>6325 1305 4636 01</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text click-to-copy" data-clipboard-text="1274 4401 3054 6360 11">
+                            Número de cuenta CLABE: <strong>1274 4401 3054 6360 11</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text click-to-copy" data-clipboard-text="5263 5401 3584 6224">
+                            Número de tarjeta: <strong>5263 5401 3584 6224</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text">Concepto: Pago, abono, publicidad, comisiones</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        Número de tarjeta: <span class="badge badge-primary">6</span>
+                        <img src="/img/banco_bancomer.png" alt="Logo Banco Azteca">
+                    </div>
+                    <div class="beneficiary-name p-3">
+                        <h6 class="m-0 text-center">Anita Francisco Sánchez</h6>
+                    </div>
+<!--                     <img src="/img/bancomer_.png" class="card-img-top" alt="Imagen Tarjeta 2">
+ -->                    <div class="card-body">
+                        <h5 class="card-title">BBVA Bancomer</h5>
+                        <p class="card-text click-to-copy" data-clipboard-text="154 725 4347">
+                            Número de cuenta: <strong>154 725 4347</strong>   <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text click-to-copy" data-clipboard-text="012 180 01547254347 0">
+                            Número de cuenta CLABE: <strong>012 180 01547254347 0</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text click-to-copy" data-clipboard-text="4152 3140 4122 3432">
+                            Tarjeta de débito: <strong>4152 3140 4122 3432</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text">Concepto: Pago, abono, comisiones.</p>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <!-- Tarjeta 7 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        Número de tarjeta: <span class="badge badge-primary">7</span>
+                        <img src="/img/banco_bancomer.png" alt="Logo Banco Azteca">
+                    </div>
+                    <div class="beneficiary-name p-3">
+                        <h6 class="m-0 text-center">José Manuel Santos Francisco</h6>
+                    </div>
+<!--                     <img src="/img/bancomer_.png" class="card-img-top" alt="Imagen Tarjeta 2">
+ -->                    <div class="card-body">
+                        <h5 class="card-title">BBVA Bancomer</h5>
+                        <p class="card-text click-to-copy" data-clipboard-text="150 325 9096">
+                            Número de cuenta: <strong>150 325 9096</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text click-to-copy" data-clipboard-text="012 444 01503259096 5">
+                            Número de cuenta CLABE: <strong>012 444 01503259096 5</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text click-to-copy" data-clipboard-text="4152 3137 8362 2678">
+                            Número de tarjeta: <strong>4152 3137 8362 2678</strong>  <span class="copy-indicator"></span>
+                        </p>
+                        <p class="card-text">Concepto: Comisiones, Pago, abono.</p>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <!-- Tarjeta 8 -->
+             <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        Número de tarjeta: <span class="badge badge-primary">8</span>
+                    </div>
+                    <div class="beneficiary-name p-3">
+                        <h6 class="m-0 text-center"></h6>
+                    </div>
+<!--                     <img src="" class="card-img-top" alt="Imagen Tarjeta 2">
+ -->                    <div class="card-body">
+                        <h5 class="card-title">Banco </h5>
+                        <p class="card-text">Número de cuenta: </p>
+                        <p class="card-text">Número de cuenta CLABE: </p>
+                        <p class="card-text">Concepto:</p>
+                    </div>
+                </div>
+            </div> 
+
+        </div>
+    </div>
+       <!-- Bootstrap JS (coloca este script al final del body para una carga más rápida) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Clipboard.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+
+    <script>
+        // Inicializar Clipboard.js
+        var clipboard = new ClipboardJS('.click-to-copy');
+
+        // Mostrar notificación al copiar
+        clipboard.on('success', function (e) {
+            e.clearSelection();
+            var copyIndicator = e.trigger.querySelector('.copy-indicator');
+    /*         copyIndicator.textContent = 'Contenido copiado: ' + e.trigger.dataset.clipboardText; */
+
+            // Mostrar la notificación
+            var notification = document.createElement('div');
+            notification.classList.add('notification');
+            notification.textContent = 'Contenido copiado: ' + e.trigger.dataset.clipboardText;
+            document.body.appendChild(notification);
+            notification.style.display = 'block';
+
+            // Ocultar la notificación después de 2 segundos
+            setTimeout(function () {
+                notification.style.display = 'none';
+                copyIndicator.textContent = '';
+            }, 2000);
+        });
+    </script>
+    
+</body>
+
+</html>
